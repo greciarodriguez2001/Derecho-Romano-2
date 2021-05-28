@@ -146,8 +146,8 @@ button:hover{
 }
 
 .contenedor{
-    width:600px;
-    height:650px;
+    width:500px;
+    height:600px;
     margin:auto;
     background:#fcfcfc;
     box-shadow: 1px 7px 25px rgba(255,255,255,0.6);
