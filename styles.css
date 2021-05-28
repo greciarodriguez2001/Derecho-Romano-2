@@ -5,8 +5,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+b{
+    display:inline;
+}
+
 h2{
-    margin-left:-150px;
+    margin-left:350px;
 }
 
 .header{
@@ -21,9 +25,18 @@ h2{
 .title-section{
     height:70px;
     background:#0a1931;
+    color:white;
     border-top:solid white 3px;
     display:flex;
     justify-content: space-around;
+}
+
+.title-section .inner-section1 {
+    width:30%;
+}
+
+.title-section .inner-section2 {
+    width:70%;
 }
 
 .subtitle-section{
@@ -35,26 +48,74 @@ h2{
     justify-content: space-around;
 }
 
-.subtitle-section #inner-section2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .section{
     height:300px;
+    display: flex;
 }
 
-.inner-section{
+.subtitle-section .inner-section1{
+    width:30%;
     display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.subtitle-section .inner-section2{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section .inner-section1{
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.section .inner-section2{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-button{
+    display:flex;
+    justify-content: center;
     align-items: center;
+}
+
+aside{
+    width:50%;
+    color:white;
+    padding:30px;
+    align-items: center;
+    text-align: justify;
 }
 
 section h3{
     color:white;
     margin:0;
-    margin-left:30px;
-    
+}
+
+button{
+    margin-top:10px;
+    padding:10px;
+    font-size:15px;
+    font-family:'Open Sans', sans-serif ;
+    font-weight: bold;
+    color:white;
+    border: solid white 3px;
+    border-radius: 35px;
+    background: rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+button:hover{
+    color:#0a1931;
+    background:white;
+    cursor: pointer;
 }
 
 #section1{
@@ -65,15 +126,9 @@ section h3{
     background:#ffc947;
 }
 
-#inner-section1{
-    width:30%;
-}
 
-#inner-section2{
-    width:70%;
-    color:white;
-    text-align:center;
-}
+
+
 
 
 
