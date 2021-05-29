@@ -99,6 +99,13 @@ section h3{
     margin:0;
 }
 
+footer{
+    background:#0a1931;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+}
+
 button{
     margin-top:10px;
     padding:7px;
